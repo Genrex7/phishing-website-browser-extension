@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Phishing Detector</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Rubik:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="popup.js"></script>
+	</head>
+	<body>
+		<h1>Phishing Detector</h1>
+		<div id="instruction-list">
+			<ol>
+				<li>To use this extension, you need a VirusTotal API key.</li>
+				<li>
+					If you don't have one, sign up for a free account at
+					<a href="https://www.virustotal.com/gui/join-us"
+						>VirusTotal</a
+					>.
+				</li>
+				<li>
+					After signing up, go to your profile settings and copy your
+					API key.
+				</li>
+			</ol>
+		</div>
+
+		<div id="result"></div>
+
+		<!-- Include the popup.js script at the end -->
+		<script src="popup.js"></script>
+	</body>
+</html>
